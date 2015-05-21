@@ -14,7 +14,7 @@ public class ATM {
 
 			if (card[i] != null) {
 
-				if (!bnk1.checkStateCard(card[i])) {
+				//if (!bnk1.checkStateCard(card[i])) {
 
 					if (card[i].getIdCard() == IdCard) {
 
@@ -40,7 +40,7 @@ public class ATM {
 
 		}
 
-	}
+	//}
 
 	void getCash(Cards[] card, int IdCard, int PIN, float cash) {
 
